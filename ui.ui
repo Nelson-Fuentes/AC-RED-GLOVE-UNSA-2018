@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1045</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1045</width>
+    <height>100</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1045</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Red Glove</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icon.png</normaloff>icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget{
+	background: white;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="cs" native="true">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>480</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: url('cursor.png');
+z-index: 100</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>782</x>
+      <y>90</y>
+      <width>93</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>PUNTAJE:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="score_ui">
+    <property name="geometry">
+     <rect>
+      <x>881</x>
+      <y>90</y>
+      <width>143</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0000000000000</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="b2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>294</x>
+      <y>68</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: url('triangleshape.png');</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="b4" native="true">
+    <property name="geometry">
+     <rect>
+      <x>294</x>
+      <y>321</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: url('moonshape.png');
+</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="b5" native="true">
+    <property name="geometry">
+     <rect>
+      <x>534</x>
+      <y>68</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: url('pentagonshape.png');</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="b3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>54</x>
+      <y>321</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: url('cuadreshape.png');</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="b1" native="true">
+    <property name="geometry">
+     <rect>
+      <x>54</x>
+      <y>68</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: url('starshape.png');</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="b6" native="true">
+    <property name="geometry">
+     <rect>
+      <x>534</x>
+      <y>321</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: url('circleshape.png');</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="mov" native="true">
+    <property name="geometry">
+     <rect>
+      <x>782</x>
+      <y>260</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: url('pentagonform.png');</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="globos" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>560</y>
+      <width>0</width>
+      <height>0</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: url('globos.png');</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="surrender">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>150</y>
+      <width>221</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>OCR A Std</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: white;
+border: 1px solid black;
+color: black;</string>
+    </property>
+    <property name="text">
+     <string>¡ME RINDO ! :'v</string>
+    </property>
+   </widget>
+   <zorder>b1</zorder>
+   <zorder>b3</zorder>
+   <zorder>b2</zorder>
+   <zorder>b4</zorder>
+   <zorder>b5</zorder>
+   <zorder>b6</zorder>
+   <zorder>label</zorder>
+   <zorder>score_ui</zorder>
+   <zorder>globos</zorder>
+   <zorder>surrender</zorder>
+   <zorder>mov</zorder>
+   <zorder>cs</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
